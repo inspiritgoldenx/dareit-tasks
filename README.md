@@ -1,3 +1,3 @@
 # cloud_challenge
 DareIT
-DareIT Cloud Challenge 2023
+Cloud Challenge 2023
