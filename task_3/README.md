@@ -17,5 +17,12 @@ print('Hello DareIT')
  ```
 7. after this, **Hello DareIT** is printed in the terminal :smiley:
 8. the second step of the task is to create a **Cloud Function**
-9. to do that, I went in Google Console, in the *Navigation Menu* (or by writing it search field), I chose **Cloud Function** --> and **CREATE FUNCTION**
-10. 
+9. to do that, I went in Google Console, in the *Navigation Menu* (or by writing it search field), I chose **Cloud Function** --> then **CREATE FUNCTION**
+10. after enabling APIs (*Cloud logging API*), the next thing to choose was the *trigger type*, in this case: **HTTP**
+11. in *Runtime and Build section* (where are the settings for RAM), I left the default 256 MB
+12. then I pressed **save**, after that appeard an Editor in which I Choose **Python3.7** from the Runtime dropdown
+13. I changed the ***Hello World*** in the *main.py* to other text --> ***I am learning and this is fun*** and pressed **Save**
+14. and I have triggered the *execution of the Cloud Function*
+15. after that, I copied the url from the *Trigger tab* and pasted it into my browser
+16. the result: ![dareITcloudfunctionpic](https://user-images.githubusercontent.com/125319277/231577840-6dd289e6-814a-4f43-a94f-11d3e7f1b7a3.jpg)
+
