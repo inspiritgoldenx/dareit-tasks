@@ -25,4 +25,4 @@ print('Hello DareIT')
 14. and I have triggered the *execution of the Cloud Function*
 15. after that, I copied the url from the *Trigger tab* and pasted it into my browser
 16. the result: ![dareITcloudfunctionpic](https://user-images.githubusercontent.com/125319277/231577840-6dd289e6-814a-4f43-a94f-11d3e7f1b7a3.jpg)
-
+17. that what I've done was activation an execution of a piece of code run using Cloud Function :smile:
