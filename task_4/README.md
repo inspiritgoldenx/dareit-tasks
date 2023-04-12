@@ -15,6 +15,7 @@
 sudo apt update && sudo apt -y install apache2
 ```
 and hitted *enter*
+
 12. after it, I pasted:
 ```
 sudo systemctl status apache2
