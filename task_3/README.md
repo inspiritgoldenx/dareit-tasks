@@ -15,4 +15,7 @@ print('Hello DareIT')
  ```
  python hello.py
  ```
- 7. after this, **Hello DareIT** is printed in the terminal :smiley:
+7. after this, **Hello DareIT** is printed in the terminal :smiley:
+8. the second step of the task is to create a **Cloud Function**
+9. to do that, I went in Google Console, in the *Navigation Menu* (or by writing it search field), I chose **Cloud Function** --> and **CREATE FUNCTION**
+10. 
