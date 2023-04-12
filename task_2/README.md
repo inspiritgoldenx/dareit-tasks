@@ -35,6 +35,6 @@
 12. and made the website accessible by others by changing the permissions, in this case I went to the *permissions tab* and clicked **GRANT ACCESS**
 13. in the *new principals* I wrote **allUsers** and selected a role called **Storage Object Viewer**, thanks to that anybody will be able to view the files
 14. after clicking **save** and confirming: **Allow Public Access**, I copied the public url of the object and pasted it into my browser
-15. the look:
+15. and how it looks:
 ![dareITbucketpic](https://user-images.githubusercontent.com/125319277/231567020-5ab958e7-e935-40fe-a021-a82141828953.jpg)
 
