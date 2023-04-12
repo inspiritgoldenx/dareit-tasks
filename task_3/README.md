@@ -4,4 +4,9 @@
 ```
 vim hello.py
 ```
-after that, I pressed: **ESC** then **SHIFT+I**, thanks to that, it will allow VIM to enter the INSERT mode. In the INSERT mode, I am able to edit the file (which is empty for now)
+2. after that, I pressed: **ESC** then **SHIFT+I**, thanks to that, it will allow VIM to enter the *INSERT* mode. In the INSERT mode, I am able to edit the file (which is empty for now)
+3. in the *INSERT* mode I typed:
+```
+print('Hello DareIT')
+```
+4. pressed **ESC**, typed **:wq** end pressed **Enter** to go out
