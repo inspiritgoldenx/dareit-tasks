@@ -10,3 +10,6 @@ vim hello.py
 print('Hello DareIT')
 ```
 4. pressed **ESC**, typed **:wq** end pressed **Enter** to go out
+5. mini info: ![dareITminiinfopic](https://user-images.githubusercontent.com/125319277/231571490-13b3a440-5b5c-4740-a52a-691cb69cb15e.jpg)
+6. 
+ 
