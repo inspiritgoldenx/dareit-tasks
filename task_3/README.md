@@ -15,4 +15,4 @@ print('Hello DareIT')
  ```
  python hello.py
  ```
- 7. after this, **Hello DareIT** is printed in the terminal :U+1F917:
+ 7. after this, **Hello DareIT** is printed in the terminal :smiley:
