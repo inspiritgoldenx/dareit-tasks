@@ -31,3 +31,9 @@
 
 </html>
 ```
+11. after this, I have uploaded the *index.html* file to my bucket *example-bucket-070* in Google Cloud (it can be done easily done by dragging and dropping the file in the browser)
+12. and made the website accessible by others by changing the permissions, in this case I went to the *permissions tab* and clicked **GRANT ACCESS**
+13. in the *new principals* I wrote **allUsers** and selected a role called **Storage Object Viewer**, thanks to that anybody will be able to view the files
+14. after clicking **save** and confirming: **Allow Public Access**, I copied the public url of the object and pasted it into my browser
+15. the look:
+16. 
