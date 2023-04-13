@@ -38,22 +38,16 @@ INSERT INTO dareit.students
 
 VALUES(0, '', '', '', '');
 ```
-16. after generating the code, I filled it up with some data
+16. after generating the code, I filled it up with some data (as above: id, lastname etc.)
 17. later I selected data from the students table by writing 
  ```
  select * from dareit.students
 ```
-
-
-
-
-
-
-
-
-what is average age of the students in the class?
-
+18. thanks to the commands like *INSERT*, *UPDATE*, *DELETE* and others, it is possible to edit the table
+19. one of the tasks was to create few more columns with *age* and few more rows --> [the table](https://github.com/inspiritgoldenx/dareit-tasks/blob/main/task_5/table.md)
+20. afterwards I created (searched) for a query which answered the question ***what is average age of the students in the class?***
+21. the query: 
 SELECT AVG(ages) as avg_ages
 FROM students;
 
-26,5
+***26,5***
