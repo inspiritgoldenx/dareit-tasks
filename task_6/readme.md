@@ -68,8 +68,25 @@ resource "google_compute_instance" "dare-id-vm" {
 
 }
 ```
+3. where in above code the line with *project name* is individual and depends on our project name in Google Cloud 😄
+4. after that, I wrote the below code in my terminal in Cloud Shell:
+```
+terraform init
+```
+5. next one was: 
+```
+terraform plan
+```
 
-
+to check the plan of the terraform
+6. after that, it asked me to *authorize Cloud Shell to perform actions using your credentials* (thank’s to this terraform will now rely on your credentials in your project in order to be able to create resources)
+7. next, I have used the command:
+```
+terraform apply
+```
+where terraform once again showed me the plan (as in previous step with the command *terraform plan*, I confirmed it by **yes** becasue I wanted it to apply)
+8. and 🎉 it worked
+9. in the next step I went to *Compute Engine* --> **VM Instances** in the navigation panel in Google Cloud 
 
 
 
