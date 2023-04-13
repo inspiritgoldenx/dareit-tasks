@@ -85,8 +85,30 @@ to check the plan of the terraform
 terraform apply
 ```
 where terraform once again showed me the plan (as in previous step with the command *terraform plan*, I confirmed it by **yes** becasue I wanted it to apply)
+
 8. and 🎉 it worked
 9. in the next step I went to *Compute Engine* --> **VM Instances** in the navigation panel in Google Cloud 
+10. after going inside the folder, there was a resource which is using terraform 🎉 
+11. later I used the command:
+```
+cat terraform.tfstate
+```
+to view the content of the file
+
+12. later, I have manually changed *network tag*, **save**
+13. and went back to Cloud Shell to run *terraform plan* again
+14. thanks to that, I saw that Terraform detected the definition of the resource from the main.tf = they are now different
+15. next I have run the Terraform again by: *terraform apply*, *confirm* and what I see? the network tag is there again
+16. after this exercise, I delted the *dare-it-vm-tf VM Instance*  
+17. last but not least, as part of this task, [I have created resource using terraform](https://github.com/inspiritgoldenx/dareit-tasks/blob/main/task_6/main.txt) 
+![dareITterraformzad6](https://user-images.githubusercontent.com/125319277/231840069-09efc230-eef1-4560-ae11-feb0022e5694.jpg)
+
+# 🎉
+
+
+
+
+
 
 
 
